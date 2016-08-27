@@ -62,3 +62,5 @@ Make changes to files: | Bring changes in to the staging area | Save changes to 
 
 
 For more info: https://www.codecademy.com/learn/learn-git
+
+git - the simple guide : http://rogerdudler.github.io/git-guide/
