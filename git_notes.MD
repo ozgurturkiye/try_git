@@ -8,7 +8,7 @@ and saving changes to a `Git repository`. In Git, we save changes with a `commit
 
 Working Directory | Staging Area | Repository 
 ----------------- | ------------ | ----------
-Make changes to files: | Bring changes in to the staging area | Save changes to the repository a a `commit`
+Make changes to files: | Bring changes in to the staging area | Save changes to the repository a `commit`
 1 | 2 | 3
 
 # Summary
