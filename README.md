@@ -60,6 +60,10 @@ Make changes to files: | Bring changes in to the staging area | Save changes to 
 > Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
 
 
+# git collage
+![git-collage]
+(https://github.com/ozgurturkiye/try_git/raw/master/git_collage2.jpg)
+
 
 For more info: https://www.codecademy.com/learn/learn-git
 
