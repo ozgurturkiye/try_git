@@ -11,6 +11,12 @@ Working Directory | Staging Area | Repository
 Make changes to files: | Bring changes in to the staging area | Save changes to the repository a `commit`
 1 | 2 | 3
 
+About file status : Adding Changes ($ git add `FILE`)
+
+![git_advice]
+(https://github.com/ozgurturkiye/try_git/raw/master/git_advice.png)
+
+
 # Summary
 
 - Git is the industry-standard version control system for web developers
