@@ -62,6 +62,8 @@ About file status : Adding Changes ($ git add `FILE`)
 - `git fetch:` Fetches work from the remote into the local copy.
 - `git merge origin/master:` Merges origin/master into your local branch.
 - `git push origin <branch_name>:` Pushes a local branch to the origin remote.
+- `git remote add origin <https://github.com/user/repo.git>:` Set a new remote
+- `git remote set-url origin <https://github.com/USERNAME/OTHERREPOSITORY.git>:`changes an existing remote repository URL. 
 
 > Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
 
