@@ -88,7 +88,7 @@ We want to make a Shopping List
 
 1. `git clone /home/ozgur/mom-repo/ /home/ozgur/father-repo`: clonnig `mom-repo` as `father-repo` 
 
- >Don't forget this is my directory you must yourself :)
+ >Don't forget this is my directory you must use your directory :)
  
 2. `git branch future`: create "future" branch
 3. `git checkout future`:choose "future" branch
