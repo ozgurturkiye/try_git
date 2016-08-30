@@ -59,4 +59,60 @@ We also learned the following commands
     6. goto remote branch and merge <branch_name>: `git merge future`
 
 
+# Step by Step Example for Local Teamwork
 
+We want to make a Shopping List
+- Mom has the `mom-repo`(this is the main repo) and she has all power :)
+- Father will have the cloned `father-repo` and he has no power about this topic ;)
+- They are working on same network on linux
+
+# Let's begin
+### mom is on computer and creating `mom-repo`
+
+1. `git init mom-repo` : initialize mom-repo
+
+ >`output`Başlatılan boş bir Git deposu, konum: /home/ozgur/mom-repo/.git/
+
+2. `echo "1. Eggs" >> shopping_list.txt`: create shopping_list.txt with eggs :)
+3. `git add shopping_list.txt`: git add
+4. `git commit -m "Shopping list created"`: git commit -m ""
+
+  `output`
+ >[master (root-commit) e922536] Shopping list created
+ 
+ >1 file changed, 1 insertion(+)
+ 
+ >create mode 100644 shopping_list.txt
+
+### father is on computer and cloning `mom-repo` as `father-repo`
+
+1. `git clone /home/ozgur/mom-repo/ /home/ozgur/father-repo`: clonnig `mom-repo` as `father-repo` 
+
+ >Don't forget this is my directory you must yourself :)
+ 
+2. `git branch future`: create "future" branch
+3. `git checkout future`:choose "future" branch
+4. `echo "2. Milk" >> shopping_list.txt`: Added "2. milk" to shopping_list.txt file
+5. `git add shopping_list.txt`: git add
+6. `git commit -m "Milk added"`: git commit -m
+7. `git push origin future`: push future branch to origin(this is remote repo master branch)
+
+### mom is again on computer and merge time:
+
+1. `git branch`: control branch
+
+> output is:
+
+>future
+
+>*master
+
+2. `git merge future`: future merged to master 
+
+ >That's all :)
+
+3. `git log`: You can see what have you done in log file
+
+
+
+You can find more example on: https://www.codecademy.com/learn/learn-git
